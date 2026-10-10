@@ -1,0 +1,30 @@
+# Given names that are also ordinary English words, medical terms, month names
+# or common sentence openers. Tier-4 dictionary matching NEVER fires on these.
+#
+# Without this list "I lost my WILL to exercise", "in MAY", "the patient had
+# HOPE", "a stent in the LAD" and "MAX heart rate" would all become [NAME].
+#
+# Strong context still catches a genuine use: "Hi May," is a tier-2 greeting
+# match, which runs before the dictionary and does not consult this file.
+
+# --- ordinary words, months, sentence openers ---
+april art august autumn bill bob buck bud carol chance charity cliff dale
+dawn dean dick don dot drew earl faith frank gay gene grace guy hope jack
+jean jo joy june justice lane lee mark max may mercy miles mitch olive page
+paige pat patience peace pearl penny prudence ray reed rich robin rose rusty
+sonny summer sunny trinity van victor virtue wade will wilder windy
+
+# --- month abbreviations ---
+# "I had a heart attack in Jan." and "It's Jan. 25" are far more common in this
+# corpus than the reporter Jan Wong. A greeting or sign-off still catches a
+# person: "Hi Jan," is a tier-2 match.
+jan
+
+# --- place names that collide with given names ---
+# Checked against the corpus: "in Victoria" (British Columbia, where the Heart
+# Sisters author lives), "Victoria Hospice", "St Mary's Kitchener". Redacting
+# these as [NAME] is simply wrong -- they are not people.
+victoria georgia virginia carolina charlotte austin jordan sierra alberta
+regina madison florence dakota montana savannah cleveland orlando phoenix
+brooklyn camden kent surrey devon chelsea richmond adelaide perth hamilton
+windsor kingston york

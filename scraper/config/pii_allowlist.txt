@@ -1,0 +1,40 @@
+# PII allowlist -- names and handles that are NEVER redacted.
+#
+# Rationale (team decision, 2026-09-12): the PII policy protects the *data
+# subjects* -- the patients and community members whose narratives we collect.
+# It does not protect published authors, cited researchers or institutional
+# accounts, who appear here in a public professional capacity. Redacting them
+# destroys the corpus's medical traceability ("Dr. [NAME]'s study showed...")
+# without protecting anyone.
+#
+# Matching is case-insensitive and whole-token. One entry per line.
+# Entries starting with @ allowlist a platform handle; everything else
+# allowlists a personal or organisational name.
+#
+# NOTE: `Dr. X` / `Doctor X` in citation position is kept by default for the
+# same reason (see pii.KEEP_TITLED_NAMES). This file is for bylines and
+# accounts that appear without a title.
+
+# --- Publication bylines and their accounts ---
+carolyn thomas
+@heartsisters
+heart sisters
+myheartsisters
+
+# --- Platform / institutional accounts ---
+@colleenyoung
+colleen young
+mayo clinic
+mayo clinic connect
+womenheart
+inspire
+her heart
+herheart
+heart research australia
+american heart association
+@americanheart
+
+# --- Well-known public figures cited in this corpus without a title ---
+dr oz
+dr google
+dr seuss

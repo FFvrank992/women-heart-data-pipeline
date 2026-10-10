@@ -1,0 +1,6 @@
+-r requirements.txt
+requests>=2.31
+beautifulsoup4>=4.12
+google-api-python-client>=2.100
+python-dotenv>=1.0
+playwright>=1.40

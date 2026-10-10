@@ -1,0 +1,109 @@
+# Common anglophone given names, one per line group, lowercase.
+# Used by common/pii.py tier-4 dictionary matching.
+#
+# Sources: the most frequent US/UK/AU given names, plus every name observed in
+# a greeting, self-introduction or sign-off position in this project's own
+# corpus (mined across all six platforms, 22,037 documents).
+#
+# A name here is redacted only when it appears capitalised in a non-sentence-
+# initial position AND is not listed in ambiguous_names.txt. Names that double
+# as ordinary English words belong in that file, not removed from this one.
+#
+# Edit freely -- this is data, not code. Lines starting with # are ignored.
+aaron abbey abbie abby abigail adam adrian adriana adrienne agnes aileen
+aimee aisha alan alana albert alberta alec alex alexa alexander alexandra
+alexis alfred alice alicia alina alison allan allen allie allison alma
+alyson alyssa amanda amber amelia amie amy ana anastasia andie andrea
+andreas andrew andy angela angelica angelina angie anita ann anna annabel
+annalise anne annette annie anthony antoinette antonia arlene armando
+arthur ashley ashlyn astrid aubrey audra audrey austin ava avery barb
+barbara barry beatrice becca becky belinda bella ben benjamin bernadette
+bernard bernice bert bertha beth bethany betsy bette bettie betty beverly
+bianca billie billy blake blanche bobbi bobbie bobby brad
+bradley brandi brandon brandy breanna brenda brendan brent brett brian
+briana bridget brittany brooke bruce bryan bryce caitlin caleb callie
+calvin cameron camille candace candice candy cara carey cari carl carla
+carleen carlos carly carmen carole carolina caroline carolyn carrie
+carson casey cassandra cassie catherine cathey cathleen cathran cathy
+cecelia cecilia cedric celest celeste chad chandra charlene charles charlie
+charlotte chelsea cheri cherie cherry cheryl chloe chris chrissy christa
+christian christie christina christine christopher christy chuck cindy
+claire clara clare clarence claudia clayton clifford clint clyde cody colby
+cole coleen colette colin colleen connie conor constance cora corey corinne
+cory courtney craig cris crystal curtis cynthia daisy dallas damon
+dana dane daniel daniela danielle danny daphne darcy daria darlene darrell
+darren darryl daryl dave david dayna deana deanna debbie debby
+debi debie debora deborah debra declan dee deidre deirdre delia della delores
+denise dennis denny derek derrick desiree devin devon diana diane dianne
+dina dixie dolores dominic dominique donald donna donnie dora doreen
+doris dorothy doug douglas duane dustin dwayne dwight dyanne dylan
+earlene ed eddie edgar edith edna eduardo edward edwin eileen elaine
+eleanor elena elisa elisabeth elise eliza elizabeth ella ellen ellie elliot
+elsa elsie elvira emerson emily emma enid eric erica erik erika erin
+ernest ernie esther ethan ethel eugene eunice eva evan evelyn everett
+faye felicia felix fernando fiona flora florence floyd fran frances francine
+francis francisco franklin fred freda freddie frederick gabriel
+gabriela gabriella gabrielle gail gareth garrett gary gavin gayle gemma
+gena geneva genevieve geoff geoffrey george georgia georgina gerald
+geraldine gerard gerry gertrude gigi gilbert gina ginger ginny gladys glen
+glenda glenn gloria gordon graham grant greg gregory gretchen gwen
+gwendolyn hailey haley hank hannah harold harriet harry hattie hayden hazel
+heath heather hector heidi helen helena henry herbert herman hilary hilda
+hillary hollie holly howard hugh hugo ian ida ilene imogen ingrid
+irene iris irma irv irving isaac isabel isabella isabelle ivan ivy
+jackie jaclyn jacob jacqueline jade jaime jake james jamie jan jana jane
+janel janelle janet janice janine janis jared jasmine jason jay jayne
+jeanette jeanie jeanne jeannette jeannie jeff jefferson jeffrey jen jenn
+jenna jennie jennifer jenny jeremy jeri jerome jerry jess jesse jessica
+jessie jill jillian jim jimmy jinni joan joann joanna joanne jocelyn
+jodi jodie jody joe joel joey johanna john johnny jolene jon jonathan joni
+jordan jorge jose josefina joseph josephine josh joshua joyce juan
+juanita judi judith judy jules julia julian julianne julie juliet
+justine kaitlin kara karen kari karin karla kat kate katelyn
+katherine kathi kathie kathleen kathryn kathy katie katrina katy kay kaye
+kayla keith kel kelli kellie kelly kelsey kelvin ken kendall kendra kenneth
+kenny kerri kerry kevin kim kimberly kirk kirsten kris krista kristen
+kristi kristin kristina kristine kristy krystal kurt kyle kylie lacey
+lana lance lara larry latoya laura laurel lauren laurence laurie lavonne
+lawrence leah leanne leigh leila lena lenny leo leon leonard leroy
+lesley leslie lester leticia levi lewis liam libby lidia lila lillian
+lilly lily linda lindsay lindsey lionel lisa liz liza lizzie lloyd logan
+lois lola lonnie lora loraine loren lorena loretta lori lorna lorraine
+lou louis louise lucas lucia lucille lucinda lucy luis luke lula luz lydia
+lyn lynda lyndsey lynn lynne mabel mack madeline madison mae maggie
+malcolm mandy manuel mara marc marcia marco marcus margaret margie margo
+maria mariah marian marianne maribel marie marilyn marion marisa marissa
+maritza marjorie marlene marsha marta martha martin marty
+marvin mary maryann matilda matt matthew maureen maurice maxine maya
+meagan meg megan meghan mel melanie melinda melisa melissa mellissa melody
+melvin mercedes meredith merle mia micaela michael michaela micheal michele
+michelle mickey miguel mike mildred milton mindy miranda miriam misty
+mitchell molly mona monica monique morgan muriel murray myra myrna
+myrtle nadine nan nancy naomi natalie natasha nathalie nathan nathaniel
+neal ned neil nell nellie nelson nicholas nick nicky nicola nicolas nicole
+nigel nikki nina noelle nora norma norman octavia olga olivia
+opal ophelia oscar owen pam pamela patrice patricia patrick patsy
+patti patty paul paula pauline peggy penelope percy perry pete
+peter petra phil philip phillip phoebe phyllis polly preston priscilla
+quentin quinn rachael rachel rae ralph ramon ramona randall randy raquel
+raul raymond rebecca rebekah regina reginald rena rene renee reuben
+rex rhea rhoda rhonda ricardo richard rick ricky rita rob robbie robert
+roberta roberto robyn rochelle rod rodney roger roland ron ronald ronda
+ronnie rosa rosalie rosanne rosemarie rosemary rosie ross roxanne
+ruben ruby rudy russ russell ruth ryan sabrina sadie sally salvatore sam
+samantha samuel sandi sandra sandy sara sarah saul scott sean selena serena
+seth shane shanna shannon shari sharon sharonne shaun shauna shawn shawna
+sheila shelby shelia shelley shelly sheri sherri sherry sheryl shirley
+sidney sierra silvia simon simone sonia sonja sonya sophia sophie spencer
+stacey stacy stan stanley stefanie stella steph stephanie stephen steve
+steven stewart stuart sue suellen susan susanna susanne susie suzanne
+suzette suzy sybil sylvia tabitha tamara tami tammy tania tanya tara tasha
+taylor ted terence teresa teri terrance terri terrence terry tess tessa
+thelma theodore theresa therese thomas tia tiffany tim timothy tina toby
+todd tom tomas tommie tommy toni tony tonya tracey traci tracy travis
+trent trevor tricia trina trish trisha troy trudy tyler tyrone ursula
+valerie vanessa vaughn velma vera verna vernon veronica vicki vickie vicky
+victoria vince vincent viola violet virgil virginia vivian vivien
+wallace walter wanda warren wayne wendell wendy wes wesley wilbur wilda
+wilfred willa willard william willie wilma winifred winston yolanda yvette
+yvonne zachary zoe

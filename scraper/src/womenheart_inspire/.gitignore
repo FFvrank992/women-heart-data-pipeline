@@ -1,0 +1,12 @@
+# Public portfolio boundary: crawler inputs, state and derived narratives stay local.
+data/raw/*.csv
+data/processed/*.csv
+data/state/*.csv
+logs/
+.pipeline.lock
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/

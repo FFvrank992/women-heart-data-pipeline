@@ -1,0 +1,37 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.test-deps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.tmp_pytest/
+
+# Collected or derived data. Patient narratives are never committed.
+data/private/
+data/processed/
+scraper/output/
+scraper/src/womenheart_inspire/data/raw/*.csv
+scraper/src/womenheart_inspire/data/processed/*.csv
+scraper/src/womenheart_inspire/data/state/*.csv
+scraper/src/reddit/*.txt
+scraper/src/mayo/.mayo_edge_profile/
+scraper/src/womenheart_inspire/.pipeline.lock
+*.json.gz
+*.parquet
+*.sqlite
+*.db
+
+# Keep only the deliberately synthetic portfolio sample.
+!data/sample/
+!data/sample/*.csv
+
+# Tooling and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log

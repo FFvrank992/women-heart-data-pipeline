@@ -1,0 +1,7 @@
+﻿id,Date,Type,Platform,URL,Content,support_group,n_redacted_names,has_emoji,content_len,lang
+Inspire_23a7a5c2e4060061,2026-01-03,post,Inspire,https://example.invalid/inspire/1,My name is . My cardiologist diagnosed a heart attack after persistent chest pain.,,1,False,82,en
+Heart Sisters_ea093d1ecaa06d9b,2026-01-04,blog,Heart Sisters,https://example.invalid/heart-sisters/1,"Women can experience cardiac symptoms differently, including fatigue and shortness of breath.",,0,False,93,en
+Her Heart_4b36d0745af55802,2026-01-05,blog,Her Heart,https://example.invalid/her-heart/1,This educational article explains coronary artery disease and why early assessment matters.,,0,False,91,en
+Mayo Clinic Connect_ccd826a02562ae6d,2026-01-06,comment,Mayo Clinic Connect,https://example.invalid/mayo/1,My blood pressure improved after discussing the treatment plan with my cardiologist.,,0,False,84,en
+Reddit_4ae5b39c7ce00571,2026-01-07,post,Reddit,https://example.invalid/reddit/1,Is bruising after a cardiac catheter procedure common during the first week of recovery?,,0,False,88,en
+YouTube_0b1474eceb15489f,2026-01-08,comment,YouTube,https://example.invalid/youtube/1,"My ECG was normal, but I still asked a cardiologist about recurring palpitations. ",,0,True,82,en
